@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Abyssinica+SIL&family=Lobster&family=Open+Sans:wght@400;600;700&family=Oswald&family=Permanent+Marker&family=Poppins:wght@700&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+}
+.bg {
+  height: 100vh;
+  background-image: url(/images/bg-img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+.form-wrap{
+  position: relative;
+  box-shadow: 0px 0px 10px #000;
+  border-radius: 10px;
+}
+.form-heading{
+ font-weight: 700;
+ letter-spacing: 2px;
+ text-transform: uppercase;
+ font-family: 'Aboreto', cursive;
+}
+#regForm{
+  padding: 30px;
+}
+#regForm label{
+text-transform: uppercase;
+font-family: 'Aboreto', cursive;
+font-weight: 600;
+}
+::placeholder{
+  text-transform: capitalize;
+  font-size: 12PX;
+  
+}
+#warning1,#warning2,#warning3{
+font-size: 13px;
+
+}
